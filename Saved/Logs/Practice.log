@@ -4426,3 +4426,103 @@ LogConfig: Set CVar [[r.Occlusion.SingleRHIThreadStall:1]]
 [2023.02.13-13.39.08:925][ 61]LogFileHelpers: InternalPromptForCheckoutAndSave took 118 ms (total: 1.23 sec)
 [2023.02.13-13.39.08:931][ 61]AssetCheck: New page: 에셋 저장:  Level1
 [2023.02.13-13.39.08:931][ 61]LogContentValidation: Display: /Script/Engine.World /Game/Blueprint/mAP/Level1.Level1 유효성 검사 중
+[2023.02.13-13.39.33:499][267]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2023.02.13-13.39.33:504][267]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.13-13.39.33:504][267]PIE: New page: PIE 세션: Level1 (2023. 2. 14. 오전 7:39:33)
+[2023.02.13-13.39.33:504][267]LogPlayLevel: Creating play world package: /Game/Blueprint/mAP/UEDPIE_0_Level1
+[2023.02.13-13.39.33:506][267]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001970s)
+[2023.02.13-13.39.33:506][267]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprint/mAP/Level1.Level1 to /Game/Blueprint/mAP/UEDPIE_0_Level1.Level1 (0.002007s)
+[2023.02.13-13.39.33:506][267]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.13-13.39.33:507][267]LogAIModule: Creating AISystem for world Level1
+[2023.02.13-13.39.33:507][267]LogPlayLevel: PIE: World Init took: (0.000849s)
+[2023.02.13-13.39.33:547][267]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.02.13-13.39.33:548][267]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.02.13-13.39.33:548][267]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.13-13.39.33:548][267]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.13-13.39.33:548][267]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.13-13.39.33:548][267]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.13-13.39.33:548][267]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.13-13.39.33:548][267]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.13-13.39.33:548][267]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.13-13.39.33:548][267]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.13-13.39.33:549][267]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.13-13.39.33:549][267]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.13-13.39.33:549][267]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.13-13.39.33:551][267]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.13-13.39.33:649][267]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Realtek High Definition Audio)
+[2023.02.13-13.39.33:649][267]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.13-13.39.33:649][267]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.13-13.39.33:649][267]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.13-13.39.33:650][267]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.02.13-13.39.33:650][267]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.02.13-13.39.33:652][267]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.02.13-13.39.33:652][267]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.02.13-13.39.33:652][267]LogInit: FAudioDevice initialized.
+[2023.02.13-13.39.33:652][267]LogAudio: Display: Audio Device (ID: 17) registered with world 'Level1'.
+[2023.02.13-13.39.33:655][267]LogLoad: Game class is 'BP_GM_C'
+[2023.02.13-13.39.33:655][267]LogWorld: Bringing World /Game/Blueprint/mAP/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.02.13-22.39.33
+[2023.02.13-13.39.33:655][267]LogWorld: Bringing up level for play took: 0.000446
+[2023.02.13-13.39.33:657][267]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2023.02.13-13.39.33:659][267]PIE: 서버가 로그인했습니다.
+[2023.02.13-13.39.33:660][267]PIE: 에디터에서 플레이 총 시작 시간 0.157초입니다.
+[2023.02.13-13.39.35:466][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.13-13.39.35:466][361]LogWorld: BeginTearingDown for /Game/Blueprint/mAP/UEDPIE_0_Level1
+[2023.02.13-13.39.35:466][361]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2023.02.13-13.39.35:467][361]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.13-13.39.35:484][361]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.13-13.39.35:490][361]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.13-13.39.35:526][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.13-13.39.35:526][361]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.02.13-13.39.35:528][361]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.02.13-13.39.35:535][361]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.02.13-13.39.35:564][362]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2023.02.13-13.40.46:571][536]BlueprintLog: New page: BP_Character 컴파일
+[2023.02.13-13.40.46:638][536]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.02.13-13.40.57:206][785]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.02.13-13.40.58:069][785]LogSlate: Window '콘텐츠 저장' being destroyed
+[2023.02.13-13.40.58:076][785]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.13-13.40.58:187][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Character/BP_Character" FILE="../../../../Epic Games/Project/Practice/Content/Blueprint/Character/BP_Character.uasset" SILENT=true
+[2023.02.13-13.40.58:198][785]LogSavePackage: Moving output files for package: /Game/Blueprint/Character/BP_Character
+[2023.02.13-13.40.58:198][785]LogSavePackage: Moving '../../../../Epic Games/Project/Practice/Saved/BP_CharacterD81DDA1041A106852D9FB2B45791C2C9.tmp' to '../../../../Epic Games/Project/Practice/Content/Blueprint/Character/BP_Character.uasset'
+[2023.02.13-13.40.58:199][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/GameMode/BP_GM" FILE="../../../../Epic Games/Project/Practice/Content/Blueprint/GameMode/BP_GM.uasset" SILENT=true
+[2023.02.13-13.40.58:202][785]LogSavePackage: Moving output files for package: /Game/Blueprint/GameMode/BP_GM
+[2023.02.13-13.40.58:203][785]LogSavePackage: Moving '../../../../Epic Games/Project/Practice/Saved/BP_GM48ADA89044F51918E1868F986F0C2B43.tmp' to '../../../../Epic Games/Project/Practice/Content/Blueprint/GameMode/BP_GM.uasset'
+[2023.02.13-13.40.58:204][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Input/IA_Jump" FILE="../../../../Epic Games/Project/Practice/Content/Blueprint/Input/IA_Jump.uasset" SILENT=true
+[2023.02.13-13.40.58:205][785]LogSavePackage: Moving output files for package: /Game/Blueprint/Input/IA_Jump
+[2023.02.13-13.40.58:205][785]LogSavePackage: Moving '../../../../Epic Games/Project/Practice/Saved/IA_JumpD347435046E729C5C659C3B743A9CE56.tmp' to '../../../../Epic Games/Project/Practice/Content/Blueprint/Input/IA_Jump.uasset'
+[2023.02.13-13.40.58:206][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Input/IA_Look" FILE="../../../../Epic Games/Project/Practice/Content/Blueprint/Input/IA_Look.uasset" SILENT=true
+[2023.02.13-13.40.58:207][785]LogSavePackage: Moving output files for package: /Game/Blueprint/Input/IA_Look
+[2023.02.13-13.40.58:208][785]LogSavePackage: Moving '../../../../Epic Games/Project/Practice/Saved/IA_LookE3DC41FF4FBB3CD9519AECA174817748.tmp' to '../../../../Epic Games/Project/Practice/Content/Blueprint/Input/IA_Look.uasset'
+[2023.02.13-13.40.58:209][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Input/IA_Move" FILE="../../../../Epic Games/Project/Practice/Content/Blueprint/Input/IA_Move.uasset" SILENT=true
+[2023.02.13-13.40.58:210][785]LogSavePackage: Moving output files for package: /Game/Blueprint/Input/IA_Move
+[2023.02.13-13.40.58:210][785]LogSavePackage: Moving '../../../../Epic Games/Project/Practice/Saved/IA_Move764473C646794DEC6F57899D82DBD5B4.tmp' to '../../../../Epic Games/Project/Practice/Content/Blueprint/Input/IA_Move.uasset'
+[2023.02.13-13.40.58:216][785]LogFileHelpers: InternalPromptForCheckoutAndSave took 140 ms (total: 1.37 sec)
+[2023.02.13-13.40.58:223][785]AssetCheck: New page: 에셋 저장:  다수의 에셋
+[2023.02.13-13.40.58:223][785]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Blueprint/Character/BP_Character.BP_Character 유효성 검사 중
+[2023.02.13-13.40.58:223][785]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Blueprint/GameMode/BP_GM.BP_GM 유효성 검사 중
+[2023.02.13-13.40.58:223][785]LogContentValidation: Display: /Script/EnhancedInput.InputAction /Game/Blueprint/Input/IA_Jump.IA_Jump 유효성 검사 중
+[2023.02.13-13.40.58:223][785]LogContentValidation: Display: /Script/EnhancedInput.InputAction /Game/Blueprint/Input/IA_Look.IA_Look 유효성 검사 중
+[2023.02.13-13.40.58:223][785]LogContentValidation: Display: /Script/EnhancedInput.InputAction /Game/Blueprint/Input/IA_Move.IA_Move 유효성 검사 중
+[2023.02.13-13.41.26:110][581]LogSlate: Window '애니메이션 블루프린트 생성' being destroyed
+[2023.02.13-13.41.26:119][581]LogContentBrowser: Deferred new asset file creation: NewAnimBlueprint
+[2023.02.13-13.41.26:125][581]LogContentBrowser: Creating deferred item: NewAnimBlueprint
+[2023.02.13-13.41.26:133][582]LogAutomationController: Ignoring very large delta of 2.10 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.02.13-13.41.26:142][582]LogContentBrowser: Renaming the item being created (Deferred Item: NewAnimBlueprint).
+[2023.02.13-13.41.31:481][222]LogContentBrowser: Attempting asset rename: NewAnimBlueprint -> ABP_Character
+[2023.02.13-13.41.31:495][222]LogContentBrowser: End creating deferred item NewAnimBlueprint
+[2023.02.13-13.41.32:585][344]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Blueprint/Character/Animation/ABP_Character.ABP_Character
+[2023.02.13-13.41.32:586][344]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.13-13.41.32:592][344]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.13-13.41.32:600][344]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.02.13-13.41.33:238][344]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.13-13.41.33:350][344]LogViewport: Scene viewport resized to 476x413, mode Windowed.
+[2023.02.13-13.41.41:616][195]LogSlate: Took 0.006446 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.02.13-13.48.00:964][ 92]BlueprintLog: New page: ABP_Character 컴파일
+[2023.02.13-13.48.01:038][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.02.13-13.48.01:587][147]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.13-13.48.01:625][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Character/Animation/ABP_Character" FILE="../../../../Epic Games/Project/Practice/Content/Blueprint/Character/Animation/ABP_Character.uasset" SILENT=true
+[2023.02.13-13.48.01:631][147]LogSavePackage: Moving output files for package: /Game/Blueprint/Character/Animation/ABP_Character
+[2023.02.13-13.48.01:631][147]LogSavePackage: Moving '../../../../Epic Games/Project/Practice/Saved/ABP_CharacterC2DB1CFF44824E47DF8D43BB2FD77D04.tmp' to '../../../../Epic Games/Project/Practice/Content/Blueprint/Character/Animation/ABP_Character.uasset'
+[2023.02.13-13.48.01:638][147]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 1.42 sec)
+[2023.02.13-13.48.01:644][147]AssetCheck: New page: 에셋 저장:  ABP_Character
+[2023.02.13-13.48.01:644][147]LogContentValidation: Display: /Script/Engine.AnimBlueprint /Game/Blueprint/Character/Animation/ABP_Character.ABP_Character 유효성 검사 중
