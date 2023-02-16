@@ -1,0 +1,6 @@
+2023/02/16-21:52:27.808 2aec Creating DB D:/Epic Games/Project/MultiProject/Saved/webcache_4430\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb since it was missing.
+2023/02/16-21:52:27.814 2aec Reusing MANIFEST D:/Epic Games/Project/MultiProject/Saved/webcache_4430\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/16-21:52:49.880 2dbc Level-0 table #5: started
+2023/02/16-21:52:49.882 2dbc Level-0 table #5: 8099 bytes OK
+2023/02/16-21:52:49.884 2dbc Delete type=0 #3
+2023/02/16-21:52:49.886 2dbc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

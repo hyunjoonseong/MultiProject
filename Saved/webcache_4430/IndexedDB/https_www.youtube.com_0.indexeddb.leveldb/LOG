@@ -1,0 +1,15 @@
+2023/02/16-21:52:51.282 28f4 Reusing MANIFEST D:/Epic Games/Project/MultiProject/Saved/webcache_4430\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/16-21:52:51.282 28f4 Recovering log #4
+2023/02/16-21:52:51.282 28f4 Reusing old log D:/Epic Games/Project/MultiProject/Saved/webcache_4430\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000004.log 
+2023/02/16-21:53:22.308 a4c Level-0 table #8: started
+2023/02/16-21:53:22.311 a4c Level-0 table #8: 7895 bytes OK
+2023/02/16-21:53:22.312 a4c Delete type=0 #4
+2023/02/16-21:53:22.314 a4c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/02/16-21:53:22.314 a4c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xe0?\x8d\xa4exB\x00\x03\x00\x00\x00\x00\x00\x00\x00@' @ 247 : 1
+2023/02/16-21:53:22.314 a4c Compacting 1@1 + 1@2 files
+2023/02/16-21:53:22.321 a4c Generated table #9@1: 60 keys, 2677 bytes
+2023/02/16-21:53:22.321 a4c Compacted 1@1 + 1@2 files => 2677 bytes
+2023/02/16-21:53:22.322 a4c compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/02/16-21:53:22.322 a4c Delete type=2 #5
+2023/02/16-21:53:22.322 a4c Delete type=2 #8
+2023/02/16-21:53:22.323 a4c Manual compaction at level-1 from '\x00\x02\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xe0?\x8d\xa4exB\x00\x03\x00\x00\x00\x00\x00\x00\x00@' @ 247 : 1 .. (end); will stop at (end)
